@@ -1,0 +1,30 @@
+/* chỉ đích danh thẻ có id h1 */
+#h1 {
+    color: rgb(67, 158, 124);
+    font-size: 25px;
+}
+
+/* thẻ có class1 */
+.class1 {
+    color: aqua;
+}
+
+/* thẻ có cả class1 và class2 */
+.class1.class2 {
+    color: blue;
+}
+
+/* thẻ có class2 là con class1 */
+.class1 .class2 {
+    color: rgb(30, 123, 43); 
+}
+
+/* tất cả các thẻ */
+* {
+    color: rgb(177, 229, 35);
+}
+
+/* Chọn tất cả thẻ h3 có class title */
+h3.title {
+    color: rgb(228, 5, 244);
+}
