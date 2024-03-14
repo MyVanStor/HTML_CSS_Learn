@@ -1,6 +1,8 @@
+/* Mức độ ưu tiên: Inline -> #id -> .class -> tag */
+
 /* chỉ đích danh thẻ có id h1 */
 #h1 {
-    color: rgb(67, 158, 124);
+    color: rgb(126, 82, 196); 
     font-size: 25px;
 }
 
@@ -11,7 +13,7 @@
 
 /* thẻ có cả class1 và class2 */
 .class1.class2 {
-    color: blue;
+    color: rgb(40, 40, 117);
 }
 
 /* thẻ có class2 là con class1 */
@@ -28,3 +30,74 @@
 h3.title {
     color: rgb(228, 5, 244);
 }
+
+/* Gom nhóm các thẻ có cùng thuộc tính */
+h1, h2, h3 {
+    color: rgb(255, 0, 0);
+}
+
+/* Thẻ con trực tiếp */
+div > .title {
+    color: rgb(192, 35, 43);
+}
+
+.title + .title2 {
+    color: rgb(35, 192, 43);
+}
+
+.title ~ .title3 {
+    color: rgb(35, 192, 43);
+}
+
+/* Biến trong CSS */
+:root {
+    --text-color: rgb(35, 69, 88);
+}
+
+#variable {
+    color: var(--text-color);
+}
+
+/* Các đơn vị trong CSS
+    - px: pixel
+    - %: phần trăm
+    - em: kích thước của phông chữ, phụ thuộc vào phông chữ của thẻ gần nhất có font-size khác 0
+    - rem: kích thước của phông chữ của thẻ mẹ hay thẻ html
+    - vw: viewport width, 1/100 chiều rộng của viewport
+    - vh: viewport height, 1/100 chiều cao của viewport
+*/
+
+/* Reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+/* CSS function 
+    - var(): sử dụng biến
+    - calc(): tính toán
+    - rgb(): màu sắc
+    - rgba(): màu sắc có độ trong suốt
+    - hsl(): màu sắc theo hsl
+    - hsla(): màu sắc theo hsla
+    - attr(): lấy giá trị của thuộc tính
+*/
+
+/* Pseudo classes
+    - :root: chọn thẻ gốc
+    - :hover: khi rê chuột qua thẻ
+    - :active: khi thẻ đang được click
+    - :focus: khi thẻ đang được focus
+    - :first-child: chọn thẻ đầu tiên
+    - :last-child: chọn thẻ cuối cùng
+*/
+
+/* Pseudo elements
+    - ::before: thêm nội dung vào trước thẻ
+    - ::after: thêm nội dung vào sau thẻ
+    - ::first-letter: chọn chữ cái đầu tiên
+    - ::first-line: chọn dòng đầu tiên
+    - ::selection: chọn vùng chọn
+*/
