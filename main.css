@@ -101,3 +101,35 @@ div > .title {
     - ::first-line: chọn dòng đầu tiên
     - ::selection: chọn vùng chọn
 */
+
+/* Border - Padding - Margin
+    VD: padding: 10px 20px 30px 40px;
+    VD: border: 1px solid red;
+    VD: margin: 10px 20px 30px 40px;
+*/
+
+/* Box-sizing
+    - content-box: kích thước của thẻ chỉ bao gồm phần nội dung
+    - border-box: kích thước của thẻ bao gồm cả phần nội dung, padding và border
+    - unset: trả về giá trị mặc định
+*/
+
+/* Background-image
+    - background-image: url('path');
+    - background-repeat: no-repeat;
+    - background-size: cover, contain, 100% 100%;
+    - background-position: center top right left bottom;
+    - background-attachment: fixed;
+    - background-origin: padding-box, border-box, content-box;
+    - linear-gradient: tạo gradient
+    - cú pháp rút gọn: background: color url('path') no-repeat center/cover;
+*/
+
+/* Poisiton
+    - static: mặc định
+    - relative: tương đối với vị trí ban đầu
+    - absolute: tuyệt đối với thẻ cha
+    - fixed: tuyệt đối với viewport
+    - sticky: tương đối với viewport
+    - z-index: chỉ định thứ tự hiển thị
+*/
