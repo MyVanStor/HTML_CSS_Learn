@@ -1,0 +1,14 @@
+<hr> được sử dụng để tạo một đường ngang ngắt trang hoặc một phần của trang. Đây là một thẻ không cần đóng và thường được sử dụng để phân chia các phần của nội dung trang.
+
+<br> (break) được sử dụng để tạo một dòng mới trong văn bản mà không tạo ra một đoạn mới. Nó là một thẻ không cần đóng và thường được sử dụng để ngắt dòng hoặc tạo các dòng mới trong các trường hợp như địa chỉ, địa chỉ email, hoặc trong mã nguồn.
+
+thẻ <pre> (preformatted) được sử dụng để hiển thị văn bản theo định dạng được bảo toàn, bao gồm cả dấu cách, dòng xuống và các ký tự khác mà không cần sử dụng các thẻ HTML khác như <br> hoặc <p>. Thẻ <pre> thường được sử dụng để hiển thị mã nguồn, các đoạn văn bản định dạng hoặc bất kỳ nội dung nào cần giữ nguyên định dạng.
+
+thẻ <li> (list item) được sử dụng để tạo một phần tử trong một danh sách. Thường được sử dụng bên trong các thẻ danh sách như <ul> (unordered list - danh sách không thứ tự) hoặc <ol> (ordered list - danh sách có thứ tự).
+
+Trong HTML, thẻ <td> (table data) được sử dụng để tạo một ô dữ liệu trong một bảng. Thẻ <td> phải được đặt bên trong một thẻ <tr> (table row), và nó chứa nội dung của ô dữ liệu.
+
+
+
+
+
